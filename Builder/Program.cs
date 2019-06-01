@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Builder.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace Builder
     {
         static void Main(string[] args)
         {
+            var a = new ProductStockReport();
+            Console.WriteLine(a.GetString());
+
+            Console.ReadKey();
         }
     }
 }
