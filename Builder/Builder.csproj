@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\ProductStockReport.cs" />
-    <Compile Include="Models\ProductStockReportBuilder.cs" />
+    <Compile Include="Models\ProductModels\Product.cs" />
+    <Compile Include="Services\ProductServices\IProductStockReportBuilder.cs" />
+    <Compile Include="Services\ProductServices\ProductStockReportDirector.cs" />
+    <Compile Include="Models\ProductModels\ProductStockReport.cs" />
+    <Compile Include="Services\ProductServices\ProductStockReportBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

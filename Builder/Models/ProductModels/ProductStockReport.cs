@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder.Models
+namespace Builder.Models.ProductModels
 {
     public class ProductStockReport
     {

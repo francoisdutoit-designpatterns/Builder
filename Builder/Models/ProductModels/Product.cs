@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder.Models
+namespace Builder.Models.ProductModels
 {
     public class Product
     {
-        public string Description { get; set; }
+        public string Name { get; set; }
         public int Price { get; set; }
     }
 }
